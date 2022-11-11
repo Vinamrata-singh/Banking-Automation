@@ -1,0 +1,17 @@
+Database Design(SQLite):
+	Table:Accounts
+		>Account int primary key autoincrement
+		>name text
+		>password text
+		>mob text
+		>email text
+		>balance float/real
+		>account open date text
+		>account type text
+
+	Table: Transaction
+		>Account integer
+		>transaction text
+		>transaction type
+		>Amount float
+		>updated balance
